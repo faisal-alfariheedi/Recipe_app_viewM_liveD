@@ -8,6 +8,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.cardview.widget.CardView
+import androidx.navigation.Navigation
 import androidx.recyclerview.widget.RecyclerView
 import com.example.recipe_app_viewm_lived.network.recipe
 import java.util.ArrayList
@@ -31,9 +32,8 @@ class RVAdapter( val cont: Context): RecyclerView.Adapter<RVAdapter.ItemViewHold
             ct.text = rvv.toString()
             cd.text = rvvd.toString()
             rvlisting.setOnClickListener {
-                var intent = Intent(cont, view::class.java)
-                intent.putExtra("tit",rv[position].id)
-                context.startActivity(intent)
+                Vm.pocket=rv[position]
+                Navigation.findNavController(it).navigate(R.id.action_ma2_to_vie)
             }
         }
     }

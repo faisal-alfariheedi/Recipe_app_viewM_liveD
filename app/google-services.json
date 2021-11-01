@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "668598355106",
+    "project_id": "recipe-app-viewm-lived",
+    "storage_bucket": "recipe-app-viewm-lived.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:668598355106:android:2204f9d4bc3950de7343fb",
+        "android_client_info": {
+          "package_name": "com.example.recipe_app_viewm_lived"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "668598355106-lnks141qing0kalf18p91seom46cg8id.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBo_e-Mc5GfylvAPh_wNpCRAp7dp-nLInM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "668598355106-lnks141qing0kalf18p91seom46cg8id.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

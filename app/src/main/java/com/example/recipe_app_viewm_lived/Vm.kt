@@ -22,5 +22,8 @@ class Vm(application: Application) : AndroidViewModel(application) {
     fun addall(rec:List<recipe.dat>){
         rep.addall(rec)
     }
+    companion object{
+        var pocket:recipe.dat?=null
+    }
 
 }
